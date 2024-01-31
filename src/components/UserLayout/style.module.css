@@ -1,0 +1,16 @@
+.userLayoutContainer {
+    width: 800px;
+    height: 600px;
+    background-color: tomato;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topTitle {
+    background-color: brown;
+    text-align: center;
+
+    height: 3rem;
+}

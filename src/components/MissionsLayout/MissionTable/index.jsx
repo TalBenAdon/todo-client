@@ -7,10 +7,11 @@ export default function MissionTable() {
 
     const [missions, setMissions] = useState([])
 
-    // useEffect(() => {
-    //     axios.get('/')
+    useEffect(() => {
+        axios.get('http://localhost:2500/mission')
+            .then(res => setMissions(res.data))
 
-    // }, [])
+    }, [])
 
 
     return (

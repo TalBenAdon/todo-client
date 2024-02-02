@@ -1,16 +1,14 @@
 .userLayoutContainer {
-    width: 800px;
-    height: 600px;
-    background-color: tomato;
-    margin: auto;
+    width: 650px;
+    height: 450px;
+    background-color: white;
     display: flex;
     flex-direction: column;
-
-}
-
-.topTitle {
-    background-color: brown;
-    text-align: center;
-
-    height: 3rem;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    overflow: hidden;
 }

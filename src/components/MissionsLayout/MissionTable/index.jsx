@@ -27,8 +27,6 @@ export default function MissionTable() {
     const fetchDataFromServer = async () => {
         const res = await axios.get('http://localhost:2500/mission')
         setMissions(res.data)
-        // const missionWithIsDone = res.data.map(mission => ({ ...mission, isDone: false }))
-        // setMissions(missionWithIsDone)
     }
 
 
@@ -44,7 +42,6 @@ export default function MissionTable() {
             setMissions(missions)
         }
 
-        // fetchDataFromServer()
     }
 
     useEffect(() => {

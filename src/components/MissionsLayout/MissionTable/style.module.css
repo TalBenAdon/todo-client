@@ -31,7 +31,11 @@
     margin-top: 1rem;
     border-top: 1px rgba(128, 128, 128, 0.242) solid;
     padding-top: 1rem;
-    color: #366854;
+    color: #819a90;
+
+    .missionButton {
+        background-color: #819a90;
+    }
 }
 
 .mission:first-child {
@@ -53,10 +57,10 @@
 }
 
 .missionCheckbox {
-    /* Your custom styling for the checkbox */
+
     width: 20px;
     height: 20px;
     margin-right: 10px;
     cursor: pointer;
-    /* Add more styles as needed */
+
 }
